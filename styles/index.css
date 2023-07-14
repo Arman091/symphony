@@ -1,13 +1,12 @@
 .container {
-  display:grid;
-  background-color:lightgray; /* Adding background color to the grid container */
-  grid-template-columns: 1fr 5fr 2fr; 
+  display: grid;
+  background-color: lightgray; /* Adding background color to the grid container */
+  grid-template-columns: 10% 70% 18%;
   grid-gap: 10px; /* Gap between grid items */
   padding: 10px;
   height: auto;
   width: 90%;
   margin: auto;
-
 }
 
 .grid-item {
