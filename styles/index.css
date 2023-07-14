@@ -1,0 +1,21 @@
+.container {
+  display:grid;
+  background-color:lightgray; /* Adding background color to the grid container */
+  grid-template-columns: 1fr 5fr 2fr; 
+  grid-gap: 10px; /* Gap between grid items */
+  padding: 10px;
+  height: auto;
+  width: 90%;
+  margin: auto;
+
+}
+
+.grid-item {
+  background-color: white; /* Adding background color to the grid items */
+  padding: 20px;
+  border: 1px solid gray;
+  text-align: center;
+  font-weight: bold;
+  font-size: medium;
+  height: 500px;
+}
