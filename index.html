@@ -3,14 +3,25 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="./styles/index.css">
+    <link rel="stylesheet" href="./styles/index.css" />
     <title>Symphony</title>
   </head>
   <body>
     <div class="container">
-      <div class="grid-item" id="sidebar">i am sidebar</div>
-      <div class="grid-item" id="middle">i am middle box</div>
-      <div class="grid-item" id="right">i am right</div>
+      <div class="grid-item" id="sidebar"></div>
+      <!-- Middle-section of App -->
+      <div class="grid-item" id="middle">
+        <div class="middle-child"></div>
+        <div class="middle-child"><p>Recently Listened Albums</p></div>
+        <div class="middle-child"><p>Trending Rigt Now</p></div>
+        <div class="middle-child"><p>Recent Favourites</p></div>
+      </div>
+      <!-- Right section of App -->
+
+      <div class="grid-item" id="right">
+        <div id="close"> X </div>
+        <div><p>Next On ChillOut</p></div>
+      </div>
     </div>
 
     <script src="./scripts/root.js"></script>

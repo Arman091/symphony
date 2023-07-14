@@ -1,20 +1,68 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
 .container {
   display: grid;
-  background-color: lightgray; /* Adding background color to the grid container */
-  grid-template-columns: 10% 70% 18%;
-  grid-gap: 10px; /* Gap between grid items */
+  background-color: rgba(
+    11,
+    10,
+    10,
+    0.783
+  ); /* Adding background color to the grid container */
+  grid-template-columns: 10% 70% 19%;
+  grid-gap: 2px; /* Gap between grid items */
   padding: 10px;
   height: auto;
   width: 90%;
-  margin: auto;
+  margin: 12px auto;
+  border-radius: 13px;
+  color: aliceblue;
 }
 
 .grid-item {
-  background-color: white; /* Adding background color to the grid items */
-  padding: 20px;
+  background-color: #141414e0; /* Adding background color to the grid items */
   border: 1px solid gray;
   text-align: center;
   font-weight: bold;
   font-size: medium;
-  height: 500px;
+  height: 550px;
+}
+
+#sidebar {
+  border-radius: 12px 0px 0px 12px;
+}
+
+#right {
+  border-radius: 0px 12px 12px 0px;
+}
+
+#middle {
+  display: grid;
+  grid-template-rows: 7% 25% 45% 23%;
+}
+
+/* structureing midd-children */
+.middle-child {
+  background-color: rgb(27, 25, 25);
+  border-bottom: 0.23px solid rgb(128, 123, 123);
+  text-align: left;
+  text-decoration: wavy;
+}
+
+.middle-child p {
+  font-size: 0.8rem;
+}
+
+/* styling right div */
+
+#right p{
+   font-size: 0.8rem;  
+   margin-top: 4px; 
+}
+
+#close{
+    height: 33px;
+  border-bottom: 0.23px solid rgb(128, 123, 123) ;
 }
