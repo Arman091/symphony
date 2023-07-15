@@ -30,8 +30,21 @@
   height: 550px;
 }
 
+/* side bar styling */
 #sidebar {
   border-radius: 12px 0px 0px 12px;
+}
+
+.icons-container {
+  display: flex; /* Use flexbox */
+  flex-direction: column; /* Align icons vertically */
+}
+
+#sidebar i {
+  font-size: 24px;
+  color: #fff;
+  margin-bottom: 10px; /* Add spacing between icons */
+  margin-top: 30px;
 }
 
 #right {
@@ -57,12 +70,12 @@
 
 /* styling right div */
 
-#right p{
-   font-size: 0.8rem;  
-   margin-top: 4px; 
+#right p {
+  font-size: 0.8rem;
+  margin-top: 4px;
 }
 
-#close{
-    height: 33px;
-  border-bottom: 0.23px solid rgb(128, 123, 123) ;
+#close {
+  height: 33px;
+  border-bottom: 0.23px solid rgb(128, 123, 123);
 }

@@ -3,12 +3,28 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css"
+    />
+
     <link rel="stylesheet" href="./styles/index.css" />
+
     <title>Symphony</title>
   </head>
   <body>
     <div class="container">
-      <div class="grid-item" id="sidebar"></div>
+      <div class="grid-item" id="sidebar">
+        <div class="icons-container">
+          <i class="bi bi-music-note-beamed"></i>
+          <i class="bi bi-house"></i>
+          <i class="bi bi-search"></i>
+          <i class="bi bi-mic"></i>
+          <i class="bi bi-graph-up-arrow"></i>
+          <i class="bi bi-heart"></i>
+          <i class="bi bi-cloud-download"></i>
+        </div>
+      </div>
       <!-- Middle-section of App -->
       <div class="grid-item" id="middle">
         <div class="middle-child"></div>
@@ -19,7 +35,7 @@
       <!-- Right section of App -->
 
       <div class="grid-item" id="right">
-        <div id="close"> X </div>
+        <div id="close">X</div>
         <div><p>Next On ChillOut</p></div>
       </div>
     </div>
