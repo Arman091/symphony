@@ -32,13 +32,22 @@
       <!-- Middle-section of App -->
 
       <div class="grid-item" id="middle">
-        <div class="middle-child " id="top-middle">
+        <div class="middle-child" id="top-middle">
           <input
             type="text"
             placeholder="Search for song, artist, lyrics"
             aria-label="Search"
             aria-describedby="search-icon"
           />
+          <div class="notification">
+            <span class="notification-icon"><i class="bi bi-bell"></i></span>
+            <span class="photo-icon"><i class="bi bi-person-circle"></i></span>
+            <select class="custom-select" id="dropdownMenuButton">
+              <option selected>Name</option>
+              <option value="2">Setting</option>
+              <option value="3">Logout</option>
+            </select>
+          </div>
         </div>
 
         <!-- Top second structure -->

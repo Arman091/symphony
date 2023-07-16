@@ -67,11 +67,15 @@
 .middle-child p {
   font-size: 0.8rem;
 }
+ #top-middle {
+    display: flex;
+    align-items: center;
+  }
 
- #top-middle input {
-    margin: 6px auto;
+  #top-middle input {
+    /* margin: 6px auto; */
     height: 26px;
-    width: 50%;
+    width: 60%;
     border-radius: 12px;
     background-color: rgb(84, 76, 76);
     color: #fff;
@@ -83,9 +87,38 @@
     font-size: 11px;
   }
 
-  #top-middle input::placeholder {
-    color: rgb(204, 200, 200); 
+  .notification {
+    display: inline-flex;
+    align-items: center;
+    margin-left: 20px;
   }
+
+
+.notification span{
+  margin-left: 12px;
+}
+
+.notification select {
+  margin-left: 11px;
+  border-radius:3px 3px 4px 4px;
+  height: 21px;
+  width: 11em;
+  font-size: 11px;
+  outline: none;
+  text-align: center;
+
+}
+.photo-icon {
+  margin-left: 8px;
+}
+#top-middle input::placeholder {
+  color: rgb(204, 200, 200);
+}
+
+.notification {
+  color: white;
+  display: inline;
+}
 /* styling right div */
 
 #right p {
