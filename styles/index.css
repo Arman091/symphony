@@ -30,7 +30,7 @@
   height: 550px;
 }
 
-/* side bar styling */
+/* =================================== side bar styling  ================================================*/
 #sidebar {
   border-radius: 12px 0px 0px 12px;
 }
@@ -41,7 +41,7 @@
 }
 
 #sidebar i {
-  font-size: 24px;
+  font-size: 1.2em;
   color: #fff;
   margin-bottom: 10px; /* Add spacing between icons */
   margin-top: 30px;
@@ -56,7 +56,7 @@
   grid-template-rows: 7% 25% 45% 23%;
 }
 
-/* structureing midd-children */
+/* ============== structureing midd-children ===================*/
 .middle-child {
   background-color: rgb(27, 25, 25);
   border-bottom: 0.23px solid rgb(128, 123, 123);
@@ -68,6 +68,24 @@
   font-size: 0.8rem;
 }
 
+ #top-middle input {
+    margin: 6px auto;
+    height: 26px;
+    width: 50%;
+    border-radius: 12px;
+    background-color: rgb(84, 76, 76);
+    color: #fff;
+    padding: 5px;
+    border: none;
+    outline: none;
+    margin-left: 23px;
+    text-align: center;
+    font-size: 11px;
+  }
+
+  #top-middle input::placeholder {
+    color: rgb(204, 200, 200); 
+  }
 /* styling right div */
 
 #right p {
