@@ -11,9 +11,13 @@
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
     />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap"
+    />
 
     <link rel="stylesheet" href="./styles/index.css" />
-
+    <link rel="stylesheet" href="./styles/playlist.css" />
     <title>Symphony</title>
   </head>
   <body>
@@ -29,7 +33,7 @@
           <i class="bi bi-download"></i>
         </div>
       </div>
-      <!-- Middle-section of App -->
+      <!--======================= Middle-section of App ===================================== -->
 
       <div class="grid-item" id="middle">
         <div class="middle-child" id="top-middle">
@@ -50,11 +54,40 @@
           </div>
         </div>
 
-        <!-- Top second structure -->
-        <div class="middle-child"><p>Recently Listened Albums</p></div>
-        <div class="middle-child"><p>Trending Rigt Now</p></div>
-        <div class="middle-child"><p>Recent Favourites</p></div>
+        <!-- ====================Mid second child structure ======================= -->
+        <div class="middle-child">
+          <p>Recently Listened Albums</p>
+
+          <div class="playlist">
+            <div class="playlist-overlay">
+              <p>Title of Playlist</p>
+              <p>10</p>
+            </div>
+          </div>
+        </div>
+        <!-- ============ TRENDING RIGHT NOW ====================================== -->
+        <div class="middle-child" id="trending_middle_child">
+          <p id="trend">Trending Rigt Now</p>
+          <div class="trending-container">
+            <div class="trending">
+              <div class="item">1</div>
+              <div class="item-image">
+                <img
+                  src="./images/image.jpg"
+                  alt="Song Image"
+                  class="image-style"
+                />
+              </div>
+              <div class="item">Playlist Name</div>
+              <div class="item">123456</div>
+              <div class="item">2:30</div>
+              <div class="item"><i class="bi bi-heart"></i></div>
+            </div>
+          </div>
+        </div>
+        <div class="footer">footer</div>
       </div>
+
       <!-- Right section of App -->
 
       <div class="grid-item" id="right">
@@ -63,6 +96,7 @@
       </div>
     </div>
 
-    <script src="./scripts/root.js"></script>
+    <script src="./scripts/root.js" type="module"></script>
+    <script src="./scripts/structure.js" type="module"></script>
   </body>
 </html>
